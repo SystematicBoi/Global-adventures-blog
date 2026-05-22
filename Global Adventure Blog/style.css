@@ -1,0 +1,127 @@
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+/*header*/
+header {
+    background-image: radial-gradient(circle, #163850, #005A9C) ;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+header h1 {
+    margin: 0 0 10px;
+    margin-top: 50px;
+}
+header p {
+    margin-top: 10px;
+}
+/*nav-menu*/
+nav ul {
+    background: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+/*photo-gallery*/
+#photo-gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#photo-gallery li {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#photo-gallery img {
+    width: 100%;
+    height: auto;
+}
+#photo-gallery figcaption {
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+}
+/*form*/
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    /*border: 1px solid #ddd;*/
+    outline-color: 5px solid black;
+}
+form button {
+    display: inline-block;
+    background: #005A9C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form button:hover {
+    background: #004080;
+}
+/*footer*/
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer nav ul {
+    padding: 0;
+    list-style: none;
+}
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer p {
+    margin: 10px 0;
+}
+footer a {
+    color: #fff;
+}
